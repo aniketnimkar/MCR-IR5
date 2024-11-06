@@ -6,9 +6,9 @@ const Header = () => {
     <>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" to="/">
+          <Link class="navbar-brand" to="/">
             Company User Database
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"

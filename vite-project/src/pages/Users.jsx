@@ -13,10 +13,11 @@ const Users = () => {
         {data ? (
           data.map((user) => (
             <li key={user.id} className="list-group-item">
-              <h4>{user.name}</h4>
-              <h4>Email: {user.email}</h4>
-              <h4>Phone: {user.phone}</h4>
-              <p>Company: {user.company.name}</p>
+              <h4>• {user.name}</h4>
+
+              <p> Email: {user.email}</p>
+              <p> Phone: {user.phone}</p>
+              <p> Company: {user.company.name}</p>
               <Link className="btn btn-primary" to={`/userDetails/${user.id}`}>
                 View Details
               </Link>
